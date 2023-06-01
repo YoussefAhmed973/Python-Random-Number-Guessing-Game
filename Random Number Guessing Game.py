@@ -13,6 +13,9 @@ if user_input == numb_generator:
 elif user_input > 10:
     print("I said a number between 1 and 10 >:(")
 
+elif user_input < 1:
+    print("I said a number between 1 and 10 >:(")
+
 else:
     print("Incorrct guess, better luck next time. The correct number was " + str(numb_generator))
 
